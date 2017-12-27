@@ -3,7 +3,7 @@ email: your-email@example.com
 
 
  
-baseurl: "haxsgvnbdus.github.io"  
+baseurl: ""  
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
  
 markdown: kramdown
