@@ -1,0 +1,6 @@
+---
+title: "Xmas Post Title"
+date:   2017-12-24 21:08:34 -0700
+---
+
+Xmas Post

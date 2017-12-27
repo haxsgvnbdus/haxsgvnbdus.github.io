@@ -1,0 +1,70 @@
+.face-lockup
+  max-width: 670px
+  +display(flex)
+  margin: 0 auto
+  +align-items(center)
+  +justify-content(space-between)
+
+  .face-img
+    border-radius: 50%
+    background-size: cover
+    background-position: center
+    background-image: url(../img/#{$avatar-path})
+    +size(200px)
+    +order(3)
+
+  [class^="icon-"]
+    +size(75px)
+    // background: $bgcolor
+    border-radius: 50%
+
+    path
+      fill: $accent
+
+    &.icon-linkedin
+      +order(1)
+    &.icon-facebook
+      +order(2)
+    &.icon-github
+      +order(4)
+    &.icon-hangout
+      +order(5)
+
+@media screen and (max-width: 650px)
+  .face-lockup
+    display: block
+    text-align: center
+
+    div
+      display: inline-block
+
+    .face-img
+      display: block
+      background:
+        position: center center
+        repeat: no-repeat
+      margin: 0 auto 30px
+
+    [class^="icon-"]
+      margin: 10px 9%
+
+.bar
+  width: 250px
+  height: 0px
+  border-top: 4px solid $accent
+  margin: 0px auto 50px
+
+.blurb
+  max-width: 850px
+  padding: 0 2px
+  margin: 15px auto
+  font-size: 22px
+  text-align: center
+  font-weight: 400
+
+@media screen and (max-width: 541px)
+  .skill-lockup
+    width: 220px
+
+    .skill-unit
+      width: 220px

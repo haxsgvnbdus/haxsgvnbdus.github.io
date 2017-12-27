@@ -1,0 +1,34 @@
+title: Hannie's Portfolio
+email: your-email@example.com
+
+
+ 
+baseurl: "haxsgvnbdus.github.io"  
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+ 
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+port: 8080
+sass:
+  sass_dir: assets/css
+  style: nested
+
+
+# defaults:
+#   - 
+#     scope: 
+#       path: "post" #inside _posts folder
+#     values:
+#       layout: "post"
+
+# defaults: 
+#   - scope: 
+#       path: "assets/img"
+#     values: 
+#       image: true 
+
+
+ 
